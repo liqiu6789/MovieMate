@@ -76,14 +76,14 @@ movie-recommendation-system/
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/your-username/movie-recommendation-system.git
-cd movie-recommendation-system
+git clone https://github.com/liqiu6789/MovieMate.git
+cd MovieMate
 ```
 
 ### 2. 设置环境变量
-在项目根目录下创建 .env 文件，并添加 OpenAI API 密钥：
+在项目根目录下创建 .env 文件，并添加 deepseek API 密钥：
 ```bash
-OPENAI_API_KEY=your_openai_api_key
+DEEPSEEK_API_KEY=your_deepseek_api_key
 ```
 
 ### 3. 安装依赖
@@ -171,9 +171,3 @@ Response:
 
 - GitHub: liqiu123456123
 
-## 致谢
-- 感谢 OpenAI 提供强大的语言模型。
-
-- 感谢 LangChain 提供 RAG 系统支持。
-
-- 感谢 FastAPI 和 Streamlit 提供高效的开发框架。
